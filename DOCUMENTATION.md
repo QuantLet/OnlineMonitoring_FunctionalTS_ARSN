@@ -22,11 +22,10 @@ time series, using FPCA-based scores and HAC, Shao's (2010) self-normalization a
   - `alternative-*.R` : power / detection experiments under various alternatives
   - `alternative-ARL-summary.R` : summarise outputs (ARL / rejection rates)
 - `empirical/`
-  - `plaindata.csv` : river-flow type data (used to construct functional curves)
-  - `plot-river.R` : construct functional data and plot mean curves
-  - `river-test.R` : monitoring test on river functional data (requires `fdata`)
-  - `sp500.R`, `sp500-plot.R`, `sp500-plot_RR.R` : SPX/SP500 illustration (requires `SPX.csv`, not included)
-
+  - `SPX.csv` : SPX/SP500 (not included due to copyright concern)
+  - `sp500-plot` : construct functional data and plot mean curves
+  - `sp500.R` : monitoring test on rates of return for SPX/SP500 data (requires `fdata`)
+ 
 ---
 
 ## Requirements
